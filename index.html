@@ -195,6 +195,75 @@
             </div>
         </section>
 
+        <!-- Booking-->
+
+        <div class="booking mb-5" id="bookingId">
+            <h2 id="booking" class="title">Booking Now</h2>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3" id="firstName">
+                            <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3" id="lastName">
+                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3" id="email">
+                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3" id="phoneNumber">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="row mb-3">
+                    <div class="col-6" id="selectDestination">
+                        <label for="exampleFormControlInput1">Destination</label>
+                        <select class="form-control">
+                            <option>Labuan Bajo - East Nusa Tenggara </option>
+                            <option>Rinjani Mount - Lombok</option>
+                            <option>Gili Trawangan - Lombok</option>
+                            <option>Karimunjawa - Jepara</option>
+                            <option>Raja Ampat - Papua</option>
+                            <option>Ijen Crater - Banyuwangi</option>
+                          </select>
+                    </div>
+                    <div class="col-6" id="payment">
+                        <label for="exampleFormControlInput1">Payment Method</label>
+                        <select class="form-control">
+                            <option>BCA - 78634782</option>
+                            <option>Mandiri - 4567893</option>
+                            <option>BNI - 349857</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="mb-3" id="fileUpload">
+                    <label for="formFile" class="form-label">Proof of payment</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3" id="choseDate">
+                    <label for="formFile" class="form-label">Chose Date</label>
+                    <input type="date" id="date-booking" name="date">
+                </div>
+                <button type="button" id="btn-submit" class="btn btn-primary" onclick="submitBooking()">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    </section>
+    </div>
+    <footer>
+        <footer>
+            © 2021 Copyright:
+            <a class="text-white" href="#">Travel Agent</a>
+        </footer>
+    </footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="app.js"></script>
