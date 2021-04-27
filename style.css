@@ -63,3 +63,57 @@ footer {
     padding-top: 20rem;
     margin-top: 0px;
 }
+
+@media (max-width: 768px) {
+    .booking {
+        color: white;
+        padding: 16px;
+    }
+}
+
+#lightMode {
+    background-color: #e4fbff;
+    color: #1b262c;
+}
+
+#lightMode .jumbotron {
+    background: linear-gradient(#e4fbff00, #e4fbff), url('assets/images/kawah-ijen.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #0d6efd;
+    height: 100vh;
+    border-radius: 0px;
+    padding-top: 20rem;
+    margin-top: 0px;
+}
+
+#lightMode #head-desc {
+    color: #1b262c;
+}
+
+#lightMode .title {
+    text-align: center;
+    margin-top: 6rem;
+    color: #1b262c;
+}
+
+#lightMode .booking {
+    margin-top: 6rem;
+    color: #1b262c;
+}
+
+#lightMode .card {
+    background-color: white;
+    color: #1b262c;
+}
+
+#lightMode #dropdownMenuButton2 {
+    background-color: #0d6efd;
+    color: white;
+}
+
+#lightMode .dropdown-menu {
+    background-color: #0d6efd;
+    color: white;
+}
