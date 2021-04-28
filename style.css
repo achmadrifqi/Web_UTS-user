@@ -23,6 +23,10 @@
     margin-bottom: 0px;
 }
 
+#btn-get-started {
+    border-radius: 30px;
+}
+
 .booking {
     color: white;
 }
