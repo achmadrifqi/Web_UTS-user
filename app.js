@@ -33,7 +33,12 @@ gsap.from("#head-desc", {
     x: 0,
     y: -100
 })
-
+gsap.from("#btn-get-started", {
+    opacity: 0,
+    duration: 2,
+    x: 0,
+    y: 100
+})
 
 function home() {
     gsap.from("#head-text", {
